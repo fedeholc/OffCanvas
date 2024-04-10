@@ -2,7 +2,7 @@
 OffCanvas
 
 ```mermaid
-flowchart LR
+flowchart TD
 Cliente-->|solicitud de turno|Sistema((Sistema Estudios \n y Laboratorio))
 Sistema -->|comprobante \nde turno| Cliente2[Cliente]
 Cliente-->|solicitud de \n acreditación de turno|Sistema((Sistema Estudios \n y Laboratorio))
